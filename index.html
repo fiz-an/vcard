@@ -3,20 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add to Contacts</title>
+    <title>Fizan Ahmed Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 320px;
+            text-align: center;
+            padding: 20px;
+        }
+        .profile-pic {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            background: #d9d9d9;
+        }
+        h1 {
+            font-size: 22px;
+            color: #333;
+            margin: 0;
+        }
+        h2 {
+            font-size: 16px;
+            color: #666;
+            margin: 10px 0;
+        }
+        p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+        .contact-info {
+            margin: 20px 0;
+        }
+        .contact-info div {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+        }
+        .contact-info img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            display: inline-block;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Add Fizan Ahmed to Your Contacts</h1>
-    <p>Click the button below to download and add this contact to your phone:</p>
-    <a href="vcard.vcf" download="Fizan_Ahmed.vcf">
-        <button style="padding: 10px 20px; font-size: 16px;">Download vCard</button>
-    </a>
-    <h2>Contact Details</h2>
-    <ul>
-        <li><strong>Full Name:</strong> Fizan Ahmed</li>
-        <li><strong>Phone Number:</strong> +960 779-3880</li>
-        <li><strong>Organisation:</strong> United Nations Development Programme</li>
-        <li><strong>Email:</strong> fizan.ahmed@undp.org</li>
-    </ul>
+    <div class="card">
+        <div class="profile-pic"></div>
+        <h1>Fizan Ahmed</h1>
+        <h2>United Nations Development Programme</h2>
+        <p>Working towards sustainable development and environmental resilience.</p>
+        <div class="contact-info">
+            <div>
+                <img src="phone-icon.png" alt="Phone">
+                <span>+960 779-3880</span>
+            </div>
+            <div>
+                <img src="email-icon.png" alt="Email">
+                <span>fizan.ahmed@undp.org</span>
+            </div>
+        </div>
+        <a href="vcard.vcf" download="Fizan_Ahmed.vcf" class="button">+ Add to Contacts</a>
+    </div>
 </body>
 </html>
