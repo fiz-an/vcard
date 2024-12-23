@@ -1,8 +1,12 @@
-
 BEGIN:VCARD
 VERSION:3.0
 FN:Fizan Ahmed
-TEL:+9607793880
+N:Ahmed;Fizan;;;
+TITLE:Programme Officer
 ORG:United Nations Development Programme
-EMAIL:fizan.ahmed@undp.org
+TEL;TYPE=WORK:+960 779-3880
+EMAIL;TYPE=WORK:fizan.ahmed@undp.org
+ADR;TYPE=WORK:;;H. Thuniya Bldg (Ninth Floor)\, Boduthakurufaanu Magu;Malé;20066;Maldives
+LABEL;TYPE=WORK:H. Thuniya Bldg (Ninth Floor)\nBoduthakurufaanu Magu\nMalé 20066\nMaldives
+URL:https://undp.org/maldives
 END:VCARD
